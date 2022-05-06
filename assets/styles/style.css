@@ -5,6 +5,9 @@ body {
   margin: 0;
   padding: 0;
 }
+* {
+  box-sizing: border-box;
+}
 .jumbotron {
   font-size: 20px;
   padding: 60px;
@@ -32,6 +35,7 @@ nav li {
 }
 main {
   padding: 20px;
+  overflow: auto;
 }
 h2 {
   color: #00a2c6;
@@ -65,4 +69,13 @@ footer {
   background-color: #00a2c6;
   text-align: center;
   font-weight: bold;
+}
+#content {
+  float: left;
+  width: 75%;
+}
+aside {
+  float: right;
+  width: 25%;
+  padding-left: 20px;
 }
