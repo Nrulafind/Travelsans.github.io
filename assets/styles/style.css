@@ -2,14 +2,36 @@
 
 body {
   font-family: "quicksand", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.jumbotron {
+  font-size: 20px;
+  padding: 60px;
+  background-color: #00c8eb;
+  text-align: center;
+  color: white;
+}
+nav {
+  background-color: #00a2c6;
+  padding: 5px;
 }
 nav a {
   font-size: 18px;
   font-weight: 400;
   text-decoration: none;
+  color: white;
 }
 nav a:hover {
   font-weight: bold;
+}
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+main {
+  padding: 20px;
 }
 h2 {
   color: #00a2c6;
@@ -18,12 +40,23 @@ h2 {
 h3 {
   color: #00a2c6;
 }
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
 .featured-image {
   width: 100%;
   max-height: 300px;
+  object-fit: cover;
+  object-position: center;
 }
 .profile header {
   text-align: center;
+}
+.profile-image {
+  width: 200px;
 }
 
 footer {
